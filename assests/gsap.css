@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+
+  .main{
+    padding: 27rem 12rem 5rem 12rem;
+  }
+
+  .heading-container{
+    text-align: center;
+    color: #fff;
+    padding-top: 4rem;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  }
+
+  .heading-container h3{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .heading-container p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-inline: 16rem;
+  }
+
+  .testimonilas{
+    background-color: #000;
+    
+    opacity: 90%;
+  }
+
+
+  .carousel-container {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+  }
+  
+  .carousel {
+    display: inline-flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    width: 280px;
+    height: 150px;
+     padding: 5px 30px;
+    background-color: #141212c2 !important;
+    color: white !important;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-right: 10px;
+    white-space: normal; 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 24px;
+    border: white;
+  }
+  
+  .image-card{
+    height: 20px;
+    width: 50px;
+    margin: 25px auto;
+  }
+  .image-card img{
+    max-width: 100%;
+    height: auto;
+     border-radius: 50%;
+  }
+
+  .card h3{
+    font-size: 13px;
+    font-weight: 200;
+  }
+  .card p{
+    font-size: 13px;
+    font-weight: 200;
+   
+  }
